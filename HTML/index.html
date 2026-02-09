@@ -9,22 +9,52 @@
         <div class="header">
             <img src="../images/images.png" height="50">
             <h2 id="header-text">Pokemon Index</h2>
+
+            <div class="navbar">
+                <a href="#favourites" target="_self"><h3>Favourites</h3></a>
+            </div>
+
         </div>
+
+        
 
         <div class="search-bar">
             <label for="pokemon-search">Search a pokemon:</label>
             <input type="text" id="pokemon-search" placeholder="Enter pokemon name"/>
             <button onclick="searchresult()">Search</button><br>
+        </div>
+
+        <div class="pokemon-block" style="display: none;">
+
+            <div class="pokemon-name">
+                <h2 id="pokemon-name-holder"></h2>
+            </div>
+
+            <div class="pokemon-sprite-holder">
+                <img src="" alt="Pokemon sprite" id="pokemonSprite" style="display: none"/>
+            </div>
 
 
-            <img src="" alt="Pokemon sprite" id="pokemonSprite" style="display: none"/>
-
-
+            <div class="Stats">
+                <h2 id="stats-text-holder">Stats</h2>
+                <ul>
+                    <li id="pokemon-hp"></li>
+                    <li id="pokemon-atk"></li>
+                    <li id="pokemon-def"></li>
+                    <li id="pokemon-special-atk"></li>
+                    <li id="pokemon-special-def"></li>
+                    <li id="pokemon-spd"></li>
+                </ul>
+            </div>
         </div>
 
 
+
         <div class="favorites">
+            
             <button onclick="" id="fav-img-but"><img src="../images/bookmark.png" height="50"/></button>
+            <br>
+            <label for="fav-img-but" id="fav-img-txt">Save pokemon</label>
         </div>
 
 
