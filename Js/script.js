@@ -20,12 +20,14 @@ async function fetchData() {
 
 
         if (!response.ok){
-            hidePokemon(imgSprite)
+            imgSprite.scr = "";
+            imgSprite.style.display = "none";
             throw new Error("Fout in het ophalen van URL");
         }
 
         if (!pokemonName) {
-            hidePokemon(imgSprite)
+            imgSprite.scr = "";
+            imgSprite.style.display = "none";
             throw new Error("Geen naam opgegeven");
         }
 
@@ -38,7 +40,6 @@ async function fetchData() {
          if (await sprite) {
             imgSprite.scr = sprite;
             imgSprite.style.display = "block";
-            showPokemon(imgSprite, sprite);
         }
 
 
