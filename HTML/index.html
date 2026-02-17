@@ -11,33 +11,33 @@
             <h2 id="header-text">Pokemon Index</h2>
 
             <div class="navbar">
-                <a href="#favourites" target="_self"><h3>Favourites</h3></a>
+                <a href="#favorites" target="_self"><h3>Favorites</h3></a>
             </div>
 
         </div>
 
         
 
-        <div class="search-bar">
+        <div class="search-bar" id="search-bar">
             <label for="pokemon-search">Search a pokemon:</label>
             <input type="text" id="pokemon-search" placeholder="Enter pokemon name"/>
             <button onclick="searchresult()">Search</button><br>
         </div>
 
-        <div class="pokemon-block" style="display: none;">
+        <div class="pokemon-block" id="pokemon-block" style="display: none;">
 
-            <div class="pokemon-name">
+            <div class="pokemon-name" id="pokemon-name">
                 <h2 id="pokemon-name-holder"></h2>
             </div>
 
-            <div class="pokemon-sprite-holder">
+            <div class="pokemon-sprite-holder" id="pokemon-sprite-holder">
                 <img src="" alt="Pokemon sprite" id="pokemonSprite" style="display: none"/>
             </div>
 
 
-            <div class="Stats">
+            <div class="stats" id="stats">
                 <h2 id="stats-text-holder">Stats</h2>
-                <ul>
+                <ul id="stat-table">
                     <li id="pokemon-hp"></li>
                     <li id="pokemon-atk"></li>
                     <li id="pokemon-def"></li>
@@ -50,7 +50,7 @@
 
 
 
-        <div class="favorites">
+        <div class="favorites" id="favorites">
             
             <button onclick="" id="fav-img-but"><img src="../images/bookmark.png" height="50"/></button>
             <br>
