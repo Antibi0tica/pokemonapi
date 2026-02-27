@@ -1,0 +1,1 @@
+let data = '[{ "test": "This is a test string to be stored in local storage."}]'

@@ -3,9 +3,10 @@
     <head>
         <title>Pokemon Index</title>
         <script src="../Js/script.js"></script>
+        <script src="../Json/LocalStorage.js"></script>
     </head>
 
-    <body>
+    <body onload="savePokemon();">
         <div class="header">
             <img src="../images/images.png" height="50">
             <h2 id="header-text">Pokemon Index</h2>
@@ -34,17 +35,15 @@
                 <img src="" alt="Pokemon sprite" id="pokemonSprite" style="display: none"/>
             </div>
 
+            <h2 id="types-text-holder">Types</h2>
+            <div class="type-display" id="type-display">
 
+            </div>
+
+
+            <h2 id="stats-text-holder">Stats</h2>
             <div class="stats" id="stats">
-                <h2 id="stats-text-holder">Stats</h2>
-                <ul id="stat-table">
-                    <li id="pokemon-hp"></li>
-                    <li id="pokemon-atk"></li>
-                    <li id="pokemon-def"></li>
-                    <li id="pokemon-special-atk"></li>
-                    <li id="pokemon-special-def"></li>
-                    <li id="pokemon-spd"></li>
-                </ul>
+ 
             </div>
         </div>
 
