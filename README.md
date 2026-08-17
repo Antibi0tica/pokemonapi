@@ -11,7 +11,10 @@ Should be used to search pokemons and their data.
 There was 1% of AI used where I was figuring out on how to stop it from duplicating all the data whenever you search the same pokemon again and displaying it on the website. Further more I used a tutorial from [BroCode](https://www.youtube.com/@BroCodez) on youtube to begin the project. Later on I implemented my own additions.
 
 ## Roadmap
-No current ideas for this project. Maybe in the future adding the favourite feature.
+Adding icons for types / weakness
+Adding stat icons
+Adding a Guess minigame
+Adding a list for favourites
 
 ## Contributing
 Not open for contribution
@@ -23,4 +26,4 @@ Not open for contribution
 Open source
 
 ## Project status
-Stopped. Can be forked to further develop this project.
+Resumed 
