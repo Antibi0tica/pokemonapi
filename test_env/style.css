@@ -1,0 +1,37 @@
+body {
+    background-color: #a33838;
+}
+
+#logo {
+    width: 409px;
+    height: 150px;
+    object-fit: cover;
+
+ 
+    padding-left: 35px;
+    padding-top: 76px;
+    padding-bottom: 103px;
+}
+
+.button-menu {
+    width: 281px;
+    height: 100px;
+
+    border-color: #326BB4;
+
+    border-radius: 20px;
+
+    background: #326BB4;
+
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 61px;
+
+
+    padding-left: 99px;
+
+}
