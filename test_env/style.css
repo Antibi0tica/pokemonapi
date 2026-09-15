@@ -48,6 +48,25 @@ body {
 }
 
 
+.pokedex {
+
+    float: left;
+    width: 1450px;
+    height: 1080px;
+
+    z-index: 1;
+
+    position: relative;
+
+    background-color: #817d7d;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
 .search-bar {
     background-color: #D9D9D9;
 
